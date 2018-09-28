@@ -15,6 +15,8 @@ def substring_count(string):
 	print("output is: " + str(output[0]))
 
 def main():
+	if len(sys.argv) == 1:
+		return
 	substring_count(sys.argv[1])
 
 if __name__ == "__main__":
