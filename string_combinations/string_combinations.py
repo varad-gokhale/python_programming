@@ -7,7 +7,7 @@ def string_combinations(s):
 		if index == len(s):
 			return
 		for i in range(index, len(s)):
-			str_set.add(s[index:i+1])
+			str_set.add(s[index:i+1])	
 			helper(s, index+1)
 	
 	helper(s,0)
